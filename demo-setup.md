@@ -1,4 +1,4 @@
-## Overview
+## Setting up Vimspector
 
 This page contains instructions for:
 
