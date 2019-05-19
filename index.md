@@ -84,6 +84,7 @@ mouse-inclined, the WinBar is quite useful.
 Here's a summary of common actions in the code windows. See the [Vimspector][]
 readme for full details.
 
+|-------------------------------|----------|----------|
 | Action                        | WinBar   | Keyboard |
 |-------------------------------|----------|----------|
 | Start debugging               | _None_   | `<F5>`   |
@@ -95,6 +96,23 @@ readme for full details.
 | Stop debugging                | Reset    | `<F3>`   |
 | Start again with same options | Restart  | `<F4>`   |
 | Interrupt the debugee         | Pause    | `<F6>`   |
+|-------------------------------|----------|----------|
 
+Other common actions use different windows:
+
+|--------------------------------|--------------------|------------------------------------------------|
+| Action                         | Window             | Instructions                                   |
+|--------------------------------|--------------------|------------------------------------------------|
+| View value of variable         | Code Window        | Hover the mouse on it                          |
+| View variable/expression       | Output Window      | Click `Console`, `i`, enter expression, `<CR>` |
+| View variable structure        | Scopes Window      | Highlight it and hit `<CR>`                    |
+| View variable/expression       | Watch Window       | `i` then type expression, then `<CR>`          |
+| View backtrace                 | Stack Trace Window | Expand/collapse with `<CR>`                    |
+| Jump to stack frame            | Stack Trace Window | Put cursor on frame, hit `<CR>`                |
+| View process output            | Output Window      | `stdout` or `stderr`                           |
+| Delete a watch expression      | Watch Window       | Cursor on it, press `<DEL>`                    |
+| Run to cursor                  | Code Window        | `<F9>`, `<F5>`, `<F9>`                         |
+| Add a breakpoint while rnuning | Code Window        | `<F6>`, ... `<F9>`, `<F5>`                     |
+|--------------------------------|--------------------|------------------------------------------------|
 
 [vimspector]: https://github.com/puremourning/vimspector
