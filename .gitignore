@@ -4,3 +4,6 @@ Gemfile.lock
 vendor/bundle/
 _site/
 *.sw[a-p]
+*.md.orig.*
+*.md.toc..*
+*.md.toc.*
