@@ -11,7 +11,12 @@ See the [Vimspector][] readme for detailed installation instructions, but in
 short, if you're running a supported OS:
 
 * Untar a release into `~/.vim/pack`
-* Add this to your `.vimrc`: `packadd! vimspector`
+* Add this to your `.vimrc`:
+
+```viml
+let g:vimspector_enable_mappings = 'HUMAN'
+packadd! vimspector
+```
 
 ## Getting Started
 
