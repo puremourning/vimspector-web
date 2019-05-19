@@ -3,9 +3,9 @@
 This site goes through an example of how to use [Vimspector][] to debug a C
 program (Vim) and covers basic usage.
 
-In order to follow along at home, have a read of [these
-instructions](/demo-setup.html). They cover installing Vimspector and overview
-configuring it to debug Vim, as an example of a C program.
+In order to follow along at home, have a read of
+[these instructions](demo-setup.md). They cover installing Vimspector and
+overview configuring it to debug Vim, as an example of a C program.
 
 ## UI Overview
 
