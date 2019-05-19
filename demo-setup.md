@@ -5,8 +5,9 @@ This page contains instructions for:
 * installing and configuring vimspector to debug Vim
 * building a debug version of Vim
 
+## Contents
+
 <!--ts-->
-* [Setting up Vimspector](demo-setup.md#setting-up-vimspector)
 * [Installation](demo-setup.md#installation)
 * [Getting Started](demo-setup.md#getting-started)
    * [Check out and build the Vim code](demo-setup.md#check-out-and-build-the-vim-code)

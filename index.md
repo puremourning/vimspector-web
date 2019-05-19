@@ -10,8 +10,6 @@ overview configuring it to debug Vim, as an example of a C program.
 ## Contents
 
 <!--ts-->
-* [Vimspector](index.md#vimspector)
-* [Contents](index.md#contents)
 * [UI Overview](index.md#ui-overview)
 * [The code window](index.md#the-code-window)
 * [The scopes window](index.md#the-scopes-window)
