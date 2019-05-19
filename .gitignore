@@ -3,3 +3,4 @@ Gemfile.lock
 .bundle/config
 vendor/bundle/
 _site/
+*.sw[a-p]

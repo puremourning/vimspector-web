@@ -1,6 +1,11 @@
 ## Vimspector
 
-This page contains the demo images, and probably more easily accessible form of documentation.
+This site goes through an example of how to use [Vimspector][] to debug a C
+program (Vim) and covers basic usage.
+
+In order to follow along at home, have a read of [these
+instructions](/demo-setup.html). They cover installing Vimspector and overview
+configuring it to debug Vim, as an example of a C program.
 
 ## UI Overview
 
@@ -38,7 +43,7 @@ Allows execution and display of arbitrary expressions. This window contains a
 prompt buffer. When you enter insert mode (e.g. with `i`) you can type an
 expression. When hitting `<CR>`, the expression is evaluated and the result is
 displayed. If the result is has structure, it can be expanded like in the scoped
-window by hitting `<CR>`. The little `[+]` and `[-]` icons show what is
+window by hitting `<CR>`. The little `+` and `-` icons show what is
 expandable.
 
 Watches are recomputed regularly so update as you're stepping through code, for
@@ -46,7 +51,7 @@ example.
 
 ![Watch Window](/img/vimspector-watch-window.png)
 
-## The call stack windows
+## The call stack window
 
 This shows the call stack for all of the threads in the program.
 
@@ -71,3 +76,4 @@ These windows typically scroll automatically as new content is added asyncronous
 
 ![Code Window](/img/vimspector-output-window.png)
 
+[vimspector]: https://github.com/puremourning/vimspector
