@@ -10,15 +10,15 @@ overview configuring it to debug Vim, as an example of a C program.
 ## Contents
 
 <!--ts-->
-      * [Vimspector](index.md#vimspector)
-      * [Contents](index.md#contents)
-      * [UI Overview](index.md#ui-overview)
-      * [The code window](index.md#the-code-window)
-      * [The scopes window](index.md#the-scopes-window)
-      * [The watch window](index.md#the-watch-window)
-      * [The call stack window](index.md#the-call-stack-window)
-      * [The output window](index.md#the-output-window)
-      * [Debugging](index.md#debugging)
+* [Vimspector](index.md#vimspector)
+* [Contents](index.md#contents)
+* [UI Overview](index.md#ui-overview)
+* [The code window](index.md#the-code-window)
+* [The scopes window](index.md#the-scopes-window)
+* [The watch window](index.md#the-watch-window)
+* [The call stack window](index.md#the-call-stack-window)
+* [The output window](index.md#the-output-window)
+* [Debugging](index.md#debugging)
 
 <!-- Added by: ben, at: Sun 19 May 2019 20:01:31 BST -->
 
