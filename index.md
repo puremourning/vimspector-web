@@ -3,13 +3,10 @@
 This site goes through an example of how to use [Vimspector][] to debug a C
 program (Vim) and covers basic usage.
 
-In order to follow along at home, have a read of
-[these instructions](demo-setup.md). They cover installing Vimspector and
-overview configuring it to debug Vim, as an example of a C program.
-
 ## Contents
 
 <!--ts-->
+* [Getting Started](index.md#getting-started)
 * [UI Overview](index.md#ui-overview)
 * [The code window](index.md#the-code-window)
 * [The scopes window](index.md#the-scopes-window)
@@ -21,6 +18,12 @@ overview configuring it to debug Vim, as an example of a C program.
 <!-- Added by: ben, at: Sun 19 May 2019 20:01:31 BST -->
 
 <!--te-->
+
+## Getting Started
+
+In order to follow along at home, have a read of
+[these instructions](demo-setup.md). They cover installing Vimspector and
+overview configuring it to debug Vim, as an example of a C program.
 
 ## UI Overview
 
