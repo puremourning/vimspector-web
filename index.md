@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Vimspector
 
-You can use the [editor on GitHub](https://github.com/puremourning/vimspector-web/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This page contains the demo images, and probably more easily accessible form of documentation.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## UI Overview
 
-### Markdown
+When starting debugging, vimspector creates a new tab page with 5 main sections:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* The code window
+* The output window
+* The locals window
+* The watch window
+* The call stack window.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## The code window
 
-- Bulleted
-- List
+This window has 2 elements:
 
-1. Numbered
-2. List
+* The debug toolbar (WinBar), and
+* The code buffer.
 
-**Bold** and _Italic_ and `Code` text
+In the code buffer, the current line is highlighted with a sign. When selecting a stack frame in the call stack, the code window is updated to display the current line in that stack frame:
 
-[Link](url) and ![Image](src)
-```
+![Code Window](/img/vimspector-code-window.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## The output window
 
-### Jekyll Themes
+This contains a number of buffers for both monitoring debugger state an interracting with the debugger itslef.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/puremourning/vimspector-web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The most interesting buffers are:
 
-### Support or Contact
+* The Console, which allows for an interactive REPL with most debug adapters,
+* The debugee standard error stream, and
+* The vimspector log, which allows for debugging when vimspector breaks
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+These windows typically scroll automatically as new content is added asyncronously.
+
+![Code Window](/img/vimspector-output-window.png)
+
+
