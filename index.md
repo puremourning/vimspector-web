@@ -76,4 +76,25 @@ These windows typically scroll automatically as new content is added asyncronous
 
 ![Code Window](/img/vimspector-output-window.png)
 
+## Debugging
+
+For most debugging actions, I prefer the keyboard shortcuts, but if you are more
+mouse-inclined, the WinBar is quite useful.
+
+Here's a summary of common actions in the code windows. See the [Vimspector][]
+readme for full details.
+
+| Action                        | WinBar   | Keyboard |
+|-------------------------------|----------|----------|
+| Start debugging               | _None_   | `<F5>`   |
+| Continue until break          | Continue | `<F5>`   |
+| Step over                     | Next     | `<F10>`  |
+| Step into                     | Step     | `<F11>`  |
+| Complete the current funcion  | Finish   | `<F12>`  |
+| Toggle breakpoint             | _None_   | `<F9>`   |
+| Stop debugging                | Reset    | `<F3>`   |
+| Start again with same options | Restart  | `<F4>`   |
+| Interrupt the debugee         | Pause    | `<F6>`   |
+
+
 [vimspector]: https://github.com/puremourning/vimspector
