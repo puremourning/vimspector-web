@@ -4,7 +4,6 @@ description: A multi-language debugging plugin for Vim
 show_downloads: "true"
 github:
   public: true
-  is_project_page: false
   owner_url: https://github.com/puremourning/vimspector
   tar_url: https://github.com/puremourning/vimspector/releases
   zip_url: https://github.com/puremourning/vimspector/releases
