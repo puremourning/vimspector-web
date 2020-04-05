@@ -88,6 +88,8 @@ You should now be able to run Vim by running `./src/vim`. Bonza.
 
 ## Set up the vimspector config
 
+For full details of configuring Vimspector, checkout [the reference](https://puremourning.github.io/vimspector). This section is just an illustration.
+
 Starting Vim is simple, but we want to run a Vim test. For the sake of this
 demo, we're going to run a Python test 'test_python3.vim'. This is a little more
 involved, and the details aren't really all that important, but the command we
