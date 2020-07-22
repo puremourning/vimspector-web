@@ -25,6 +25,10 @@ In order to follow along at home, have a read of
 [these instructions](demo-setup.md). They cover installing Vimspector and
 overview configuring it to debug Vim, as an example of a C program.
 
+See also the detailed [configuration documentation][configuration] and the
+[JSON schena][schema] covering the `.vimsepctor.json` and `.gadgets.json`
+formats.
+
 ## UI Overview
 
 When starting debugging, vimspector creates a new tab page with 5 main sections:
@@ -134,3 +138,5 @@ Other common actions use different windows:
 |--------------------------------|--------------------|------------------------------------------------|
 
 [vimspector]: https://github.com/puremourning/vimspector
+[configuration]: https://puremourning.github.io/vimspector/
+[schema]: https://puremourning.github.io/vimspector/schema/
