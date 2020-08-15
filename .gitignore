@@ -1,5 +1,4 @@
 *.un~
-Gemfile.lock
 .bundle/config
 vendor/bundle/
 _site/
