@@ -79,7 +79,7 @@ $ CFLAGS='-g -gdwarf4 -DDEBUG -O0 -fno-omit-frame-pointer' \
                 --with-features=huge \
                 --enable-python3interp \
                 --enable-terminal  \
-                --enable-fail-if-messing 
+                --enable-fail-if-missing 
 $ make
 $ make install
 ```
