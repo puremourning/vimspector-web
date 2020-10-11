@@ -86,7 +86,7 @@ cursor there.
 
 ## The output window
 
-This contains a number of buffers for both monitoring debugger state an interracting with the debugger itslef.
+This contains a number of buffers for both monitoring debugger state an interracting with the debugger itself.
 
 The most interesting buffers are:
 
