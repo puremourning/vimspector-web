@@ -26,7 +26,7 @@ In order to follow along at home, have a read of
 overview configuring it to debug Vim, as an example of a C program.
 
 See also the detailed [configuration documentation][configuration] and the
-[JSON schena][schema] covering the `.vimsepctor.json` and `.gadgets.json`
+[JSON schema][schema] covering the `.vimspector.json` and `.gadgets.json`
 formats.
 
 ## UI Overview
