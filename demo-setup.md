@@ -67,14 +67,14 @@ First, let's check out the Vim code and build it with debug info.
 
 This is simple. Just follow the instructions for building Vim, but make sure
 that `CFLAGS` contains at least `-g`, but I recommend the following: 
-`-g -gdwarf4 -DDEBUG -O0 -fno-omit-frame-pointer`.
+`-g -gdwarf-4 -DDEBUG -O0 -fno-omit-frame-pointer`.
 
 Here's an example:
 
 ```
 $ git clone https://github.com/vim/vim
 $ cd vim
-$ CFLAGS='-g -gdwarf4 -DDEBUG -O0 -fno-omit-frame-pointer' \
+$ CFLAGS='-g -gdwarf-4 -DDEBUG -O0 -fno-omit-frame-pointer' \
     ./configure --prefix=$(pwd)/root \
                 --with-features=huge \
                 --enable-python3interp \
