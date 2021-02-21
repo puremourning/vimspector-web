@@ -52,6 +52,10 @@ In the code buffer, the current line is highlighted with a sign. When selecting 
 
 ![Code Window](/img/vimspector-code-window.png)
 
+You can even get a pop up with the vaue of the expression under the cursor.
+
+![Hover](/img/vimspector-variable-eval-hover.png)
+
 ## The scopes window
 
 Displays the variables in different visible scopes. Entries can be expanded by
