@@ -21,6 +21,8 @@ program (Vim) and covers basic usage.
 
 ## Getting Started
 
+A kind stranger (Igor Iranto) wrote up a [really nice tutorial](https://dev.to/iggredible/debugging-in-vim-with-vimspector-4n0m) which is well worth a read.
+
 In order to follow along at home, have a read of
 [these instructions](demo-setup.md). They cover installing Vimspector and
 overview configuring it to debug Vim, as an example of a C program.
